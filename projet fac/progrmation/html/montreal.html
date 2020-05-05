@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>montreal</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../image/test_save.png">
+  <link rel="stylesheet" href="../css/montreal.css">
+  <link rel="stylesheet" href="../css/dialog.css">
+<body>
+  <header>  
+    <div class="menu"></div>
+    <img onClick="aceuil()" class="logo" src="../image/test.png" alt="">
+    
+  
+    <nav>
+          <ul>
+            <li> <a href="#">Hôtel</a></li>
+            <li> <a href="#">Voiture</a></li>
+            <li> <a href="#">Chercher une destination</a></li>
+            <li> <a href="#">Visiter</a></li>
+          </ul>
+      
+    </nav>
+  </div>
+  </header>
+  <!-- boite de dialogue en HTML CSS JS-->
+  <div id="confirm">
+    <h3>CONFIRMATION</h3>
+    <h4>Durée du sejour :</h4>
+    <p id="dispDate">date d'ariver</p>  
+    <h4>Jusqu'a le:</h4>
+    <p id="dispInfo">date de fin<p>
+    <a  class="valide" onClick='hide()'>OK</a>
+  </div>
+  <div id="général">
+
+
+    <div class="gauche">
+      
+      <p>L'HÔTEL BONAVENTURE MONTREAL</p>
+      <p>hotel de categorie <img class="etoile" src="../image/et.png"> </p>
+      </br>
+      <p>Une nuit d'hôtel a 172$
+      </p>
+
+      <div id="reservation">
+        
+      
+      <p>Durée du séjour </p>
+      <input class=date type="text" placeholder="Date d'ariver " id ="date">
+        
+        <p> Jusqu'à le</p>
+        </br>
+        <input type="text" placeholder="Date de fin " id="dateFin">
+        </br>
+        </br>
+        <div id="public">
+        <input class="parents" type="text"placeholder="2 Adultes" id="nbAdulte">
+        </br>
+        </br>
+        <input class="parents" type="text" placeholder="Enfants" id="nbEnfant">
+        </br>
+        </div>
+        </br>
+        <input type="text" placeholder="Nombre de chambre" id="nbCh">
+        
+        <button id="res"  onclick="valider()"> Résverver</button>
+        </div>
+
+    </div>
+
+    <div class="droite">
+     <div class="presentation">
+        <h1>L'hôtel Bonaventure Montreal</h1>
+        <h2> Avantage  </h2>
+        <ol>
+          <li> WI-FI  disponible gratuitemment pour toute le monde meme n'étant des clients</li>
+          <li>Un spa et un bassin mise a disposition aux client de l'hôtel</li>
+          <li>l'hôtel vous propose egalement un restaurant dans ses mur</li>
+          <li>l'hôtel vous propose egalement une sale de gym dans ses mur</li>
+        </ol>
+
+        <p>le personnelle et tres compétent pour repondre a la demande client pour satisfaire du mieux possibles et de garantir la qualité des service et retour clients
+        </p>
+
+        <p>Malgré labsence de paysage de carte postale de sable fin par une journer ensoillé sont prix reste assez raisonable pour un hotel de  <img class="etoile" src="../image/et.png"> étoiles</p>
+        <!--
+        <iframe width="100%" height="500"
+        src="https://www.youtube.com/embed/tvwmDlfidr8?controls=1">
+        </iframe>-->
+
+        <h2>A proximité</h2>
+
+        <table>
+          <tr>
+            <th>Se Déplacer </th>
+            <th>Restaurant</th> 
+            <th>À proximité</th>
+          </tr>
+          <tr>
+            <td>Gare centrale de Montréal - 2 minutes à pied</td>
+            <td>Cathédrale Christ Church 9 min à pied </td>
+            <td>Centre Bell - 7 min à pied</td>
+          </tr>
+          <tr>
+            <td>Station Bonaventure - 2 minutes à pied</td>
+            <td>Centre Bell à 7 min à pied</td>
+            <td>Rue Sainte-Catherine - 8 min à pied</td>
+          </tr>
+          <tr>
+            <td>Montréal, QC - 20 minutes en voiture</td>
+            <td>Phillips Square 10 min à pied</td>
+            <td>Cathédrale Christ Church - 9 min à pied</td>
+          </tr>
+        </table>
+        <p>L'hotel possède également une page facebook si vous voulez les retrouver il publie pas mal de photo de leur locaux et quelques paysages</p>
+        
+        <h2>galerie</h2>
+        <div class="gal">
+          <img class="galerie" src="../image/hotel/montrealentré.jpg" alt="">
+          <img class="galerie" src="../image/hotel/chambremontreal.jpg" alt="">
+        </div>
+          
+
+        
+        <div class="gal">
+          <img class="galerie" src="../image/hotel/piscine.jpg" alt="">
+          <img class="galerie" src="../image/hotel/coridor.jpg " alt="">
+        </div>
+
+
+        <div id="social">
+          <p><a href="https://www.facebook.com/hotelbonaventuremontreal/" target="_blank"   ><img class="lien_social" src="../image/facebook.png" ></a></p>
+          <p><a href="https://www.instagram.com/hotelbonaventuremontreal/" target="_blank" ><img class="lien_social"  src="../image/instagram.png" ></a></p>
+          <p><a href="https://twitter.com/bonaventurehtl" target="_blank" ><img class="lien_social" src="../image/twitter.png" ></a></p>
+          <p><a href="https://www.tripadvisor.fr/Hotel_Review-g155032-d185718-Reviews-Hotel_Bonaventure_Montreal-Montreal_Quebec.html" target="_blank" ><img class="lien_social" src="../image/tripadvisor.png" ></a></p>
+        </div>  
+      </div>
+    </div>
+
+
+
+</div>
+  <script type="text/javascript" src="../JS/dialog.js"></script>
+  <script type="text/javascript" src="../JS/main.js"></script>
+</body>
+</html>

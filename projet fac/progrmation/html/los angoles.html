@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Angeles</title>
+  <link rel="shortcut icon" href="../image/test_save.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/LA.css">
+  <link rel="stylesheet" href="../css/dialog.css">
+</head>
+<body>
+  <!--menu + header-->
+  <header>  
+    <div class="menu"></div>
+    <img onClick="aceuil()" class="logo" src="../image/test.png" alt="">
+    
+  
+    <nav>
+          <ul>
+            <li> <a href="#">Hôtel</a></li>
+            <li> <a href="#">Voiture</a></li>
+            <li> <a href="#">Chercher une destination</a></li>
+            <li> <a href="#">Visiter</a></li>
+          </ul>
+      
+    </nav>
+  </div>
+  </header>
+  <!-- boite de dialogue en HTML CSS JS-->
+  <div id="confirm">
+    <h3>CONFIRMATION</h3>
+    <h4>Durée du sejour :</h4>
+    <p id="dispDate">date d'ariver</p>  
+    <h4>Jusqu'a le:</h4>
+    <p id="dispInfo">date de fin<p>
+    <a  class="valide" onClick='hide()'>OK</a>
+  </div>
+  </header>
+  <div id="général">
+
+
+      <div class="gauche">
+        
+        <p>Embassy Suites by Hilton Los Angeles International Airport North</p>
+        <p></p>
+        <p>hotel de categorie <img class="etoile" src="../image/3.5etoile.png"> </p>
+        </br>
+        <p>Une nuit d'hôtel est a 90€</p>
+
+        <div id="reservation">
+          
+        
+        <p>Durée du séjour </p>
+      
+        <input class=date type="text" placeholder="Date d'ariver " id ="date">
+        
+        <p> Jusqu'à le</p>
+        </br>
+        <input type="text" placeholder="Date de fin " id="dateFin">
+        </br>
+        </br>
+        <div id="public">
+        <input class="parents" type="text"placeholder="2 Adultes" id="nbAdulte">
+        </br>
+        </br>
+        <input class="parents" type="text" placeholder="Enfants" id="nbEnfant">
+        </br>
+        </div>
+        </br>
+        <input type="text" placeholder="Nombre de chambre" id="nbCh">
+        
+        <button id="res"  onclick="valider()"> Résverver</button>
+        
+        </div>
+
+      </div>
+
+      <div class="droite">
+       <div class="presentation">
+          <h1>Embassy Suites by Hilton Los Angeles International Airport Northet</h1>
+          <h2>Avantage</h2>
+          <ol>
+
+
+           
+      
+
+            <div class="avantage">
+            <li> WI-FI  disponible gratuitemment pour toute le monde meme n'étant des clients</li>
+            <li>L'hôtel propose spa et une piscine et mise a disposition quand les clients veulent se relaxer </li>
+            <li>l'hôtel propose egalement des navette pour aller à l'aeroport</li>
+            <li>le petit dejeuner est inclius dans votre séjour</li>
+          </div>
+            <div class="avantage" >
+            <li>si vous avez envie de boire une bière ou deux pas de soucis il ya un bar dans l'hôtel</li>
+            <li>le parking et inclue dans l'hôtel</li>
+            <li>la reception de l'hôtel est assurer 24/24 7j/7 pour passer un appelle ou vous recevoir</li>
+            <li>l'hotel propose également un service de blanchiserie interne</li>
+          </div>
+          </ol>
+
+
+          <p>le personnelle et tres compétent pour repondre a la demande client pour satisfaire du mieux possibles et de garantir la qualité des service et retour clients
+          </p>
+          <p>Malgré labsence de paysage de carte postale type plage de sable fin par une journer ensoilléles prix de hotel sont a des prix reste assez raisonable pour un </br>hotel de  <img class="etoile" src="../image/3.5etoile.png"> étoiles a 90€/nuit au plus bas</p>
+          
+          <p>
+            dans cette Hôtel il y a 2 langue parler  si vous ne parler pas anglais l'hotel peut parler de L'espagnol si sa vous arange 
+          </p>
+
+          <!--<iframe width="100%" height="500"
+          src="https://www.youtube.com/embed/tvwmDlfidr8?controls=1">
+          </iframe>-->
+          <h2>A proximité</h2>
+
+          <table>
+            <tr>
+              <th>Se Déplacer </th>
+              <th>Restaurant</th> 
+              <th>À proximité</th>
+            </tr>
+            <tr>
+              <td>Station Aviation / Century - 12 minutes à pied</td>
+              <td>Carl's Jr - 10 min à pied</td>
+              <td>Forum de Los Angeles - 11 minutes en voiture</td>
+            </tr>
+            <tr>
+              <td>Gare de Los Angeles Union: 32minutes en voiture</td>
+              <td>Rolling Stone Bar and Grill - 18 min à pied</td>
+              <td>Venice Beach - 20 minutes en voiture</td>
+            </tr>
+            <tr>
+              <td>Los Angeles, Californie- 7 minutes en voiture</td>
+              <td>Café Klatch - 19 min à pied</td>
+              <td>Promenade de Venice Beach - 21 minutes en voiture</td>
+            </tr>
+          </table>
+          
+         
+          <h2>galerie</h2>
+         <div class="gal">
+          <img class="galerie" src="../image/hotel/suite.jfif" alt="">
+          <img class="galerie" src="../image/hotel/suite2.jfif" alt="">
+        </div>
+          
+
+        
+        <div class="gal">
+          <img class="galerie" src="../image/hotel/day_hotel.png" alt="">
+          <img class="galerie" src="../image/hotel/night_hotel.jfif" alt="">
+        </div>
+          
+        
+        <p>pour des information complementaire vous avez le lien du site officiel si desous</p>
+
+          <div id="social">
+           <!--<p><a href="https://www.facebook.com/Hotel-Ai-Reali-di-Venezia-167216543441516/"><img class="lien_social" src="../image/facebook.png" ></a></p>
+            <p><a href="https://www.instagram.com/airealihotel/"><img class="lien_social" src="../image/instagram.png" ></a></p>-->
+            <p><a href="https://www.hilton.com/en/hotels/laxabes-embassy-suites-los-angeles-international-airport-north/" target="_blank" ><img class="lien_social" src="../image/logo_embasy.png" ></a></p>
+          </div>  
+        </div>
+      </div>
+
+
+
+  </div>
+
+
+  <script type="text/javascript" src="../JS/dialog.js"></script>
+  <script type="text/javascript" src="../JS/main.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,114 @@
+body{
+  background-image:url(../image/fondbali.jpg) ;
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+header{
+  background-color: rgba(53, 13, 255, 0.3);
+}
+.gauche {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  width: 20%;
+  margin-left: -8px;
+  padding: 1%;
+  margin-bottom: 75em;
+}
+
+.logo{
+  width: 130px;
+  height: 50px;
+}
+
+
+#reservation{
+  text-align: center;
+  justify-content: center;
+}
+.etoile{
+  height: 13px;
+  width: 50px;
+}
+
+/*zone de recherche*/
+
+input{
+  border: none;
+  height: 2em;
+  padding: 5px;
+}
+input:hover
+{
+  background-color: lightblue;
+}
+input:focus {
+  background-color: lightblue;
+  border: none;
+}
+
+button{
+  margin-top: 2em;
+  height: 2.5em;
+  width: 162px;
+  background-color: rgb(102, 241, 144);
+  border: none;
+  padding: center;
+  margin-bottom: 1em;
+}
+
+button:hover{
+  background-color: rgb(102, 202, 241);
+  border: none;
+  padding: center;
+}
+
+
+/*page pricipale*/
+
+
+#général{
+  display: flex;
+  flex-direction: row;
+}
+
+.droite{
+  border-radius: 2px;
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+}
+.lien_social{
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+h1 {
+  color: #129c63;
+  text-align: center;
+}
+h2 {
+  color: #1188ff;
+  text-align: center;
+}
+ol{
+  margin-left: 35%;
+}
+.gal{
+  display: flex;
+  flex-direction: row;
+  
+}
+.galerie{
+  width: 50%;
+}
+
+#social{
+  display: flex;
+  flex-direction: row;
+  margin-left: 38%;
+}
+/*pieds de page*/
+
+footer{
+  background-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mykonos</title>
+  <link rel="shortcut icon" href="../image/test_save.png">
+  <link rel="stylesheet" href="../css/mykonos.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/dialog.css">
+</head>
+<body>
+  <header>  
+    
+      <div class="menu"></div>
+        <img onClick="aceuil()" class="logo" src="../image/test.png" alt="">
+          <nav>
+                <ul>
+                  <li> <a href="#">Hôtel</a></li>
+                  <li> <a href="#">Voiture</a></li>
+                  <li> <a href="#">Chercher une destination</a></li>
+                  <li> <a href="#">Visiter</a></li>
+                </ul>
+          </nav>
+    </div>
+    </header>
+    <!-- boite de dialogue en HTML CSS JS-->
+    <div id="confirm">
+      <h3>CONFIRMATION</h3>
+      <h4>Début du sejour :</h4>
+      <p id="dispDate">date d'ariver</p>  
+      <h4>Jusqu'a le:</h4>
+      <p id="dispInfo">date de fin<p>
+      <a  class="valide" onClick='hide()'>OK</a>
+    </div>
+  
+  <div id="général">
+          <div class="gauche">
+        
+        <p>Semeli Hotel Mykonos</br><img class="etoile" src="../image/fivestars.png"></p>
+        <p>A partir de 119€</p>
+
+        <div id="reservation">
+            
+        <p>Durée du séjour</p>
+        <input type="text" placeholder="Date d'arrivée">
+        
+        <p> Jusqu'à:</p>
+        <input class=date type="text" placeholder="Date d'ariver " id ="date">
+        
+        <p> Jusqu'à le</p>
+        </br>
+        <input type="text" placeholder="Date de fin " id="dateFin">
+        </br>
+        </br>
+        <div id="public">
+        <input class="parents" type="text"placeholder="2 Adultes" id="nbAdulte">
+        </br>
+        </br>
+        <input class="parents" type="text" placeholder="Enfants" id="nbEnfant">
+        </br>
+        </div>
+        </br>
+        <input type="text" placeholder="Nombre de chambre" id="nbCh">
+        
+        <button id="res"  onclick="valider()"> Résverver</button>
+        
+        </div>
+    </div>
+
+      <div class="droite">
+       <div class="presentation">
+          <h1>Semeli Hotel Mykonos</h1>
+          <p>Situé à 3 minutes à pied du musée maritime égéen, cet hôtel haut de gamme se trouve également à 7 minutes à pied de la plage</p>
+          <p>Les chambres chics et minimalistes sont équipées du Wi-Fi gratuit, de la télévision par satellite et d'un minibar. Elles comprennent également une douche à jets hydromassants et un balcon privé</p>
+          <p> Les chambres de catégorie supérieure offrent une vue sur la mer et possèdent une salle de séjour séparée, ainsi qu'une machine Nespresso et un bain à remous (intérieur ou extérieur). Un service de chambre 24h/24 et 7j/7 est proposé.</p>
+          <p>Le petit-déjeuner buffet est gratuit. L'hôtel abrite un restaurant gastronomique et un bar chic, ainsi qu'un spa avec bain turc. L'établissement comprend également une salle de sport, une piscine extérieure et un centre d'affaires.</p>
+          <h2>En Résumé</h2>
+        <div>
+            <ol class="lol">
+              <div class="partie">
+              <li>des chambres chics et minimalistes</li>
+              <li>des chambres de catégorie supérieure</li>
+              <li>un restaurant gastronomique</li>
+              <li>un bar chic</li>
+              <li>un spa avec bain turc</li>
+            </div>
+            <div class="partie">
+              <li>une salle de sport</li>
+              <li>une piscine extérieure</li>
+              <li>un centre d'affaires</li>
+              <li>un parking</li>
+              <li>une navette d'aéroport</li>
+            </div>  
+          <ol>
+
+       </div>
+        <h2>Dans les chambre</h2>
+        <div>
+          <ol class="lol" >
+            <div class="partie">
+            <li>le Wi-Fi</li>
+            <li>la télévision par satellite</li>
+            <li>un mini bar</li>
+            <li>une douche à jets hydromassants</li>
+          </div>
+          <div class="partie">
+            <li>un balcon privé</li>
+            <li>le petit-déjeuner</li>
+            <li>un service de chambre 24h/24, 7j/7</li>
+          </div>
+            <ol>
+        </div>
+          
+
+
+
+        <h2>galerie</h2>
+        <div class="gal">
+         <img class="galerie" src="../image/hotel/chambre_mykonos.jpg" alt="">
+         <img class="galerie" src="../image/hotel/piscine mykonos.jpg" alt="">
+       </div>
+         
+
+       
+       <div class="gal">
+         <img class="galerie" src="../image/hotel/platmykonos.jpg" alt="">
+         <img class="galerie" src="../image/hotel/entrer_mykonos.jfif" alt="">
+       </div>
+
+          
+          <p>L'hotel possède également ses pages, sur ces différents réseaux sociaux. Cela vous permettra d'avoir un aperçu. Nous vous conseillons vivement d'aller jeter un coup d'oeil.</p>
+          <div id="social">
+            <p><a href="https://www.facebook.com/SemeliHotels/"target="_blank"><img class="lien_social" src="../image/facebook.png" ></a></p>
+            <p><a href="https://www.instagram.com/semeli_hotel//"target="_blank"><img class="lien_social" src="../image/instagram.png" ></a></p>
+            <p><a href="https://www.tripadvisor.fr/Hotel_Review-g662620-d248971-Reviews-Semeli_Hotel-Mykonos_Town_Mykonos_Cyclades_South_Aegean.html"target="_blank"><img class="lien_social" src="../image/tripadvisor.png" ></a></p>
+            <p><a href="https://www.youtube.com/channel/UCTYROh5f3TVnlK5N83gk4cg"target="_blank"><img class="lien_social" src="../image/youtube.png"></a></p></a></p>
+            <p><a href="https://www.semelihotel.gr/#7"target="_blank"><img class="lien_social" src="../image/logomykonos.png"></a></p></a></p>
+          </div>
+        
+        </div>
+      </div>
+
+  </div>
+  <script type="text/javascript" src="../JS/dialog.js"></script>
+  <script type="text/javascript" src="../JS/main.js"></script>
+</body>
+</html>

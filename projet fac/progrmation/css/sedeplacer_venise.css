@@ -1,0 +1,120 @@
+body{
+  background-image: url(../image/page_vile.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  /*entete*/
+  header{
+    background-color: rgba(65, 105, 225, 0.5);
+  }
+  
+  
+  /*page principale*/
+  #page{
+    display: flex;
+    flex-direction: row;  
+  }
+  
+  
+  .contner{
+  
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5%;
+  }
+  .activité{
+    display: flex;
+    flex-direction: wrap;
+  }
+  
+  #gauche{
+    margin-left: -8px;
+    width: 14%;
+    padding: 1%;
+  }
+  nav > ul li a{
+    color: rgb(65, 105, 225);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin-left: -5%;
+  }
+  
+  nav >ul  li{
+    list-style: none;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  
+  nav > ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+  
+  nav > ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+  }
+  
+  /*page a droite*/
+  
+  #droite{
+    width: 90%;
+    padding: 1%;
+  }
+  
+  h1{
+    color: #2ecc71;
+    text-align: center;
+  }
+  
+  .presentation{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+  }
+  
+  .conteneur{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 28%;
+    margin:1em;
+    margin-left: 2em;
+    margin-top:2em;
+   position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(79, 79, 79, 0.5);
+  }
+  
+  .conteneur:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     text-align:center;
+  }
+  
+  img{
+    width:300px;
+    height:200px;
+  }
+  

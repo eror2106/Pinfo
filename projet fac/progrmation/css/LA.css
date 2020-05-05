@@ -1,0 +1,141 @@
+body{
+  background-image:url(../image/langeles.png) ;
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+header{
+  background-color: rgba(53, 13, 255, 0.3);
+}
+
+
+/*dimentionement de div gauche*/
+.gauche {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  width: 50%;
+  margin-left: -8px;
+  padding: 1%;
+  margin-bottom: 65%;
+}
+.logo{
+  width: 130px;
+  height: 50px;
+}
+
+#reservation{
+  text-align: center;
+  justify-content: center;
+}
+.etoile{
+  height: 13px;
+  width: 50px;
+}
+
+/*zone de recherche*/
+
+input{
+  border: none;
+  height: 2em;
+  padding: 5px;
+}
+input:hover
+{
+  background-color: lightblue;
+}
+input:focus {
+  background-color: lightblue;
+  border: none;
+}
+
+button{
+  margin-top: 2em;
+  height: 2.5em;
+  width: 162px;
+  background-color: rgb(102, 241, 144);
+  border: none;
+  padding: center;
+  margin-bottom: 1em;
+}
+
+button:hover{
+  background-color: rgb(102, 202, 241);
+  border: none;
+  padding: center;
+  
+}
+
+
+/*page pricipale*/
+
+
+#général{
+  display: flex;
+  flex-direction: row;
+}
+
+.droite{
+  border-radius: 2px;
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+  
+}
+
+h1{
+  color: #129c63;
+}
+
+h2{
+  color: #2e86de;
+  text-align:center ;
+}
+ol{
+  display: flex;
+  flex-direction:row ;
+}
+
+.avantage{
+  padding: 1%;
+}
+
+
+table{
+  margin-left: 5%;
+  
+}
+
+
+td{
+  padding:1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.gal{
+  display: flex;
+  flex-direction: row;
+  
+}
+.galerie{
+  width: 50%;
+}
+
+.lien_social{
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+#social{
+  display: flex;
+  flex-direction: row;
+  margin-left: 47%;
+}
+
+
+/*pieds de page*/
+
+footer{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
